@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI &amp; Machine Learning — Sohyla Said</title>
+<meta name="description" content="AI and machine learning projects by Sohyla Said, including a quantized on-device LLM and a CNN/GAN brain-computer interface.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="mark">SS</span> Sohyla Said</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#work">Work</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="assets/Sohyla-Said-CV.pdf" target="_blank" rel="noopener">View CV</a>
+      <a class="btn btn-primary" href="assets/Sohyla-Said-CV.pdf" download>Download CV
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5M4 20h16"/></svg>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</nav>
+
+<header class="page-head">
+  <img class="silhouette" src="assets/portrait-wine.png" alt="">
+  <div class="wrap">
+    <div>
+      <a class="back-link" href="index.html#work">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+        Back to all work
+      </a>
+      <h1>AI &amp; Machine Learning</h1>
+      <p class="lede">
+        Where most of my curiosity goes: getting models to run somewhere they weren't
+        designed to — on‑device, offline, and fast — without giving up too much accuracy
+        to get there.
+      </p>
+    </div>
+    <div class="page-meta">
+      <span class="tag">Python</span>
+      <span class="tag">TensorFlow / Keras</span>
+      <span class="tag">Quantization</span>
+      <span class="tag">RAG</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2>Projects</h2>
+      <p>Two builds that sit at opposite ends of AI — one generative, one perceptual.</p>
+    </div>
+    <div class="projects" data-reveal>
+
+      <div class="project">
+        <div>
+          <div class="project-num">01</div>
+          <span class="project-when">Oct 2024 – Feb 2026</span>
+        </div>
+        <div>
+          <h3>Study Buddy — Quantized LLM for On‑Device Education</h3>
+          <p>
+            An offline, privacy‑preserving study assistant built around a 4‑bit
+            NF4‑quantized Mistral‑7B, paired with retrieval‑augmented generation so it
+            can answer questions grounded in a student's own materials — with no
+            internet connection required and nothing leaving the device.
+          </p>
+          <ul>
+            <li>Led development of the pipeline: quantization, retrieval, and inference serving.</li>
+            <li>Shipped PDF summarization, automated question generation, and interactive Q&amp;A.</li>
+            <li>Reached 3.25s median inference latency on 6GB‑VRAM hardware.</li>
+            <li>Improved mathematical‑reasoning accuracy by up to 60% over the un‑tuned baseline.</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Mistral‑7B</span><span class="tag">FAISS</span><span class="tag">BGE‑small</span>
+            <span class="tag">Flutter</span><span class="tag">TensorFlow</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Sohyla03Said" target="_blank" rel="noopener">GitHub (main) ↗</a>
+            <a href="https://github.com/Sohyla03Said" target="_blank" rel="noopener">GitHub (personal) ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <div>
+          <div class="project-num">02</div>
+          <span class="project-when">Nov 2023</span>
+        </div>
+        <div>
+          <h3>EEG‑to‑Image Conversion Using CNN &amp; GANs</h3>
+          <p>
+            A brain‑computer‑interface system that reconstructs images directly from
+            EEG signal readings, combining convolutional feature extraction with a
+            generative‑adversarial decoder to turn raw brainwave data into visual
+            output.
+          </p>
+          <ul>
+            <li>Designed the CNN encoder for EEG feature extraction.</li>
+            <li>Trained a GAN‑based decoder to reconstruct viewed images from encoded signals.</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">TensorFlow</span><span class="tag">Python</span><span class="tag">CNN</span><span class="tag">GAN</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <h2>Related experience</h2>
+      <p>Coursework and training that built the foundation for this track.</p>
+    </div>
+    <div class="exp-list" data-reveal>
+      <div class="exp-item">
+        <div>
+          <div class="exp-org">Egypt‑Japan University of Science and Technology</div>
+          <div class="exp-place">B.Sc. Computer Engineering</div>
+          <div class="exp-when">2021 – 2026</div>
+        </div>
+        <p>Coursework in Machine Learning and Artificial Intelligence, alongside Data Structures &amp; Algorithms and Computer Organization.</p>
+      </div>
+      <div class="exp-item">
+        <div>
+          <div class="exp-org">iSchool — DEMI Program</div>
+          <div class="exp-place">Coding Instructor</div>
+          <div class="exp-when">Jul 2024</div>
+        </div>
+        <p>Taught Python and machine‑learning fundamentals to 25+ students in Grades 4–6, alongside block‑based programming.</p>
+      </div>
+      <div class="exp-item">
+        <div>
+          <div class="exp-org">DataCamp</div>
+          <div class="exp-place">Data Analyst with Python</div>
+          <div class="exp-when">In progress</div>
+        </div>
+        <p>Certification track covering applied Python for data analysis, ahead of deeper ML tooling.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap" data-reveal>
+    <div class="switch-strip">
+      <a href="ai.html" class="current"><b>AI &amp; ML</b>Quantized LLMs, CNN/GAN</a>
+      <a href="web.html"><b>Web</b>Full‑stack &amp; enterprise</a>
+      <a href="mobile.html"><b>Mobile</b>Android &amp; Flutter</a>
+      <a href="teaching.html"><b>Teaching</b>Mentorship &amp; curricula</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Sohyla Said. Built by hand, one section at a time.</p>
+    <ul class="foot-links">
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="assets/Sohyla-Said-CV.pdf" target="_blank" rel="noopener">CV</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
